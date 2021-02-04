@@ -1,0 +1,75 @@
+{
+  "_from": "cordova-plugin-dbmeter@2.1.0",
+  "_id": "cordova-plugin-dbmeter@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-RkxFStQqTbd96YsnFyg1ioCIagA=",
+  "_location": "/cordova-plugin-dbmeter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-dbmeter@2.1.0",
+    "name": "cordova-plugin-dbmeter",
+    "escapedName": "cordova-plugin-dbmeter",
+    "rawSpec": "2.1.0",
+    "saveSpec": null,
+    "fetchSpec": "2.1.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/cordova-plugin-dbmeter/download/cordova-plugin-dbmeter-2.1.0.tgz",
+  "_shasum": "464c454ad42a4db77de98b271728358a80886a00",
+  "_spec": "cordova-plugin-dbmeter@2.1.0",
+  "_where": "D:\\try-android-back",
+  "author": {
+    "name": "Alexis Kofman"
+  },
+  "bugs": {
+    "url": "https://github.com/akofman/cordova-plugin-dbmeter/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-dbmeter",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova DBMeter plugin",
+  "devDependencies": {
+    "cordova": "^8.0.0",
+    "cordova-paramedic": "^0.5.0",
+    "eslint": "^2.2.0",
+    "ios-sim": "^5.0.6"
+  },
+  "homepage": "https://github.com/akofman/cordova-plugin-dbmeter",
+  "keywords": [
+    "cordova",
+    "ios",
+    "android",
+    "dbmeter",
+    "audio",
+    "volume",
+    "sound",
+    "decibel",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova:plugin"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-dbmeter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akofman/cordova-plugin-dbmeter.git"
+  },
+  "scripts": {
+    "test": "eslint dbmeter.js tests",
+    "test-android": "cordova-paramedic --platform android --plugin ./ --verbose",
+    "test-ios": "cordova-paramedic --platform ios --plugin ./ -verbose"
+  },
+  "version": "2.1.0"
+}

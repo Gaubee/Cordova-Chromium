@@ -1,0 +1,24 @@
+include ':core-1.3.7'
+include ':components:components_base'
+include ':feed'
+include ':download'
+include ':components:embedder_support'
+include ':customtabs'
+include ':data_chart'
+include ':components:autofill'
+include ':ui'
+include ':gcm'
+include ':autofill_assistant'
+include ':chromium'
+include ':content'
+include ':media'
+include ':splash'
+include ':app-release'
+include ':app-release'
+include ':app-release'
+include ':app-release'
+include ':app-debug'
+include ':app-release'// GENERATED FILE - DO NOT EDIT
+include ":"
+include ":CordovaLib"
+include ":app"
